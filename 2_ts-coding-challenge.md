@@ -41,12 +41,7 @@ interface Patient {
 }
 
 async function fetchPatients(): Promise<Patient[]> {
-  return new Promise<Patient[]>((resolve, reject) => {
-    setTimeout(() => {
-      resolve(mockPatients); // Replace with your actual data fetching logic
-      //reject("Failed to fetch data"); // For error simulation
-    }, 500); // Simulate API delay
-  });
+  // ... (implement fetch patients here)
 }
 
 function processPatients(patients: Patient[]): Map<string, Patient[]> {
@@ -59,13 +54,7 @@ function displayPatients(patientsByDiagnosis: Map<string, Patient[]>): void {
 
 // Main part of your code:
 async function main() {
-  try {
-    const patients = await fetchPatients();
-    const processedPatients = processPatients(patients);
-    displayPatients(processedPatients);
-  } catch (error) {
-    console.error("Error fetching patients:", error);
-  }
+   // ... fetch, process and display patients here
 }
 
 const mockPatients: Patient[] = [
@@ -78,5 +67,3 @@ const mockPatients: Patient[] = [
 main();
 
 ```
-
-This updated challenge uses the `Patient` interface and focuses on data relevant to patient management. The data processing and display logic should be adapted accordingly (calculating average age, grouping by diagnosis, etc.).  The structure of the asynchronous operations and the use of Maps remains the same, providing a good opportunity to practice these concepts in a different context.
