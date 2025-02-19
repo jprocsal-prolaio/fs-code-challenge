@@ -68,5 +68,3 @@ Pick (3) of the following questions and write SQL queries to answer them:
 **Bonus Challenge:**
 
 *   **Find artists who have collaborated:**  Assume an artist can be on multiple albums. Find all pairs of artists who have at least one album in common.
-
-This challenge tests your SQL skills, including joins, aggregations, and subqueries.  Try to write efficient and correct queries for each question.  Let me know if you want to discuss solutions or have any other questions.  I can also provide example solutions if you get stuck.
