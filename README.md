@@ -9,6 +9,6 @@ Submission
 Please name files accordingly: 
 * sql-solution.sql
 * ts-solution.ts
-* react-solution.tsx.
+* react-solution.tsx
 
 You can either submit a PR on this repository or email the solutions to jeff.procsal@prolaio.com. 
