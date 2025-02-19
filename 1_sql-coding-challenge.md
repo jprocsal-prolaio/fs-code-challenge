@@ -21,7 +21,7 @@ We have three tables:
 
 **Challenge: Music Streaming Queries**
 
-Pick *2* of the following questions and write SQL queries to answer them:
+Pick (3) of the following questions and write SQL queries to answer them:
 
 1.  **Find all albums by a specific artist:**  Given an artist name (e.g., "The Beatles"), find all albums by that artist.  Return the album title and album ID.
 
