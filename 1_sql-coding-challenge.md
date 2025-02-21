@@ -21,7 +21,7 @@ We have three tables:
 
 **Challenge: Music Streaming Queries**
 
-Write SQL queries to answer the following questions:
+Pick (3) of the following questions and write SQL queries to answer them:
 
 1.  **Find all albums by a specific artist:**  Given an artist name (e.g., "The Beatles"), find all albums by that artist.  Return the album title and album ID.
 
@@ -68,5 +68,3 @@ Write SQL queries to answer the following questions:
 **Bonus Challenge:**
 
 *   **Find artists who have collaborated:**  Assume an artist can be on multiple albums. Find all pairs of artists who have at least one album in common.
-
-This challenge tests your SQL skills, including joins, aggregations, and subqueries.  Try to write efficient and correct queries for each question.  Let me know if you want to discuss solutions or have any other questions.  I can also provide example solutions if you get stuck.
