@@ -1,0 +1,49 @@
+= Was My Car Towed? An interview question.
+
+I walk outside and find that my car is gone.
+Was it towed? Or was it stolen?
+Help me find out with a REST API!
+
+For your exercise, you will use the City of Chicago's data portal to download a CSV list of towed vehicles, available here:
+
+https://data.cityofchicago.org/Transportation/Towed-Vehicles/ygr5-vcbg
+
+You will take this CSV, and embed it into your simple REST API, and use it as your database.
+
+The solution should make use of at least the following tools:
+
+* Python 3.8
+* Flask
+
+You should include `requirements.txt` and a `.python-version` file compatible with pyenv.
+
+I will start the server using `python was-my-car-towed.py`.
+
+To test, I will make the following request when the server is started:
+
+[source]
+----
+http://localhost:8080/was-my-car-towed?plate=MYPLTNM
+----
+
+In the above, the `plate` query parameter takes a license plate number.
+The response to the above request will be a simple JSON payload:
+
+[source,json]
+----
+{
+    "towed": true
+}
+----
+
+Obviously, the value will be `false` if the car with that plate was not towed.
+It will return `true` if the car with that plate has ever been towed.
+
+The goal of this exercise is to see how well you adapt to getting set up with new tools.
+We are not asking for an enterprise-grade solution, just one that works and is easy to read and follow.
+
+Please limit your work on this problem to no more than 2 hours of active problem solving (if you want to spend more time reading about the tools in general, that's up to you).
+If you are at the 2 hour mark and have not yet finished, please send us what you have.
+This is a new interview question for us, and your feedback will help us understand the difficulty of this problem and calibrate it for other people.
+
+
